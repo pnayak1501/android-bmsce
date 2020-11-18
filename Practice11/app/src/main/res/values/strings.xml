@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practice11</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Dosa">Dosa</string>
+    <string name="idly">idly</string>
+    <string name="upma">upma</string>
+    <string name="palakpaneer">palakpaneer</string>
+    <string name="roti">roti</string>
+</resources>

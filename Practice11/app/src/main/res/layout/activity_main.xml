@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#e0e0e0"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select your favourite food :: "
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/Dosa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="true"
+                android:text="@string/Dosa"
+                android:textColor="#154"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/idly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="@string/idly"
+                android:textColor="#154"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/upma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="@string/upma"
+                android:textColor="#154"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/palakpaneer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="@string/palakpaneer"
+                android:textColor="#154"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/roti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="@string/roti"
+                android:textColor="#154"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="#0f0"
+            android:padding="10dp"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
