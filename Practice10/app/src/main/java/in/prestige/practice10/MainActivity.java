@@ -2,6 +2,7 @@ package in.prestige.practice10;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -25,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String value = arrayAdapter.getItem(position);
                 Toast.makeText(getApplicationContext(),value,Toast.LENGTH_SHORT).show();
-
+                Intent intent = new Intent(getApplicationContext(),MainActivity2.class);
+                startActivity(intent);
             }
         });
     }

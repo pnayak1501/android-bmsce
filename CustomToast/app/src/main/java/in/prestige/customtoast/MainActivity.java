@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast toast = Toast.makeText(getApplicationContext(), "Simple Toast In Android", Toast.LENGTH_LONG); // initiate the Toast with context, message and duration for the Toast
                 toast.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 0);     // set gravity for the Toast.
                 toast.show(); // display the Toast
-
             }
         });
         // perform setOnClickListener event on custom Toast Button
@@ -54,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
                 toast.setDuration(Toast.LENGTH_LONG); // set the duration for the Toast
                 toast.setView(layout); // set the inflated layout
                 toast.show(); // display the custom Toast
-
             }
         });
     }
